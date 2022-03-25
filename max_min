@@ -1,0 +1,12 @@
+ls = [ ]
+
+def num():
+    n = int(input())
+    for i in range(n):
+        input_num = int(input())
+        ls.append(input_num)
+num()
+
+max_min = sorted(ls,reverse=True)
+for j in max_min:
+    print(j)
